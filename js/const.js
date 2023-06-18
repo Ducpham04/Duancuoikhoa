@@ -53,8 +53,7 @@ const PRODUCT_STRING = `
                             <div class="header">Kích Thước</div>
 
 
-                            <div data-value="37" class="swatch-element  37"
-                                 onClick="window.location.href='detail.html'">
+                            <div data-value="37" class="swatch-element  37">
 
                                 <input id="swatch-0-37" type="radio" name="option-0"
                                        value="{{PRODUCT_SIZE}}"/>
@@ -74,7 +73,7 @@ const PRODUCT_STRING = `
 
                     <div class="item-title"><a
                             title="Giày Phủi 3 Sọc Loại 1 - Beck Xanh Biển Sọc Bạc"
-                            href="detail.html"><h3>
+                            onclick="redirect({{PRODUCT_INDEX}})"><h3>
                         {{PRODUCT_DESCRIPTION}}</h3></a></div>
 
 
@@ -106,5 +105,6 @@ const PRODUCT_CODE = "{{PRODUCT_CODE}}"
 const PRODUCT_PRICE = "{{PRODUCT_PRICE}}"
 const PRODUCT_DESCRIPTION = "{{PRODUCT_DESCRIPTION}}"
 const PRODUCT_SIZE = "{{PRODUCT_SIZE}}"
+const PRODUCT_INDEX = "{{PRODUCT_INDEX}}"
 const KEY_PRODUCT_LIST = "LIST"
 const KEY_PRODUCT = "product"

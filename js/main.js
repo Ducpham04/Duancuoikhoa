@@ -30,6 +30,7 @@ function show() {
             .replaceAll(PRODUCT_PRICE, products[i].price)
             .replaceAll(PRODUCT_SIZE, products[i].size)
             .replaceAll(PRODUCT_DESCRIPTION, products[i].description)
+            .replaceAll(PRODUCT_INDEX, i)
         strList += productStr;
     }
     document.getElementById("productList").innerHTML = strList;
@@ -41,4 +42,10 @@ function getProductList() {
     } else {
         initData()
     }
+}
+
+function redirect(index) {
+    let product = products[index];
+    localStorage.setItem(KEY_PRODUCT, JSON.stringify(product))
+    window.location.href = "detail.html"
 }

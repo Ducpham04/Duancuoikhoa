@@ -7,8 +7,11 @@ div.form {
     float: left;
 }
 label{
-    width : 120px;
+    width : 200px;
     float: left;
+}
+#productImage{
+    display: block;
 }
 /*button{*/
 /*    float: ;*/
