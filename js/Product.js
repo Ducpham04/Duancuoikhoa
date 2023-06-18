@@ -1,58 +1,58 @@
 class Product {
     constructor(code, price, status, size, description, image) {
-        this._code = code;
-        this._price = price;
-        this._status = status;
-        this._size = size;
-        this._description = description;
-        this._image = image;
+        this.code = code;
+        this.price = price;
+        this.status = status;
+        this.size = size;
+        this.description = description;
+        this.image = image;
     }
 
     get code() {
-        return this._code;
+        return this.code;
     }
 
     set code(value) {
-        this._code = value;
+        this.code = value;
     }
 
     get price() {
-        return this._price;
+        return this.price;
     }
 
     set price(value) {
-        this._price = value;
+        this.price = value;
     }
 
     get status() {
-        return this._status;
+        return this.status;
     }
 
     set status(value) {
-        this._status = value;
+        this.status = value;
     }
 
     get size() {
-        return this._size;
+        return this.size;
     }
 
     set size(value) {
-        this._size = value;
+        this.size = value;
     }
 
     get description() {
-        return this._description;
+        return this.description;
     }
 
     set description(value) {
-        this._description = value;
+        this.description = value;
     }
 
     get image() {
-        return this._image;
+        return this.image;
     }
 
     set image(value) {
-        this._image = value;
+        this.image = value;
     }
 }

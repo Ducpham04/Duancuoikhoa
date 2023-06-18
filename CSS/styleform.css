@@ -1,0 +1,15 @@
+div.form {
+    width: 500px;
+    border: 1px solid;
+    margin: 25px;
+    padding: 10px;
+    background: #ffee07;
+    float: left;
+}
+label{
+    width : 120px;
+    float: left;
+}
+/*button{*/
+/*    float: ;*/
+/*}*/

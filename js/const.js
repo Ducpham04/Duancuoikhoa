@@ -1,4 +1,4 @@
-let PRODUCT_STRING = `
+const PRODUCT_STRING = `
 <div class="col-xxll-1 col-xs-6 col-sm-4 col-md-4 col-lg-4 product-col">
     <div class="item_product_main product_convert">
         <div class="col-item product_convert">
@@ -85,7 +85,7 @@ let PRODUCT_STRING = `
                             <div class="ab-buyx-products"
                                  data-productid="29663099"></div>
                             <div class="actions">
-                                <button onclick="window.location.href='detail.html'"
+                                <button onclick="window.location.href='add.html'"
                                         class="button btn-cart" title="Chọn sản phẩm "
                                         type="button"><span>Chọn sản phẩm </span>
                                 </button>
@@ -100,9 +100,11 @@ let PRODUCT_STRING = `
 </div>
 `
 
-let PRODUCT_IMAGE = "{{PRODUCT_IMG}}"
-let PRODUCT_STATUS = "{{PRODUCT_STATUS}}"
-let PRODUCT_CODE = "{{PRODUCT_CODE}}"
-let PRODUCT_PRICE = "{{PRODUCT_PRICE}}"
-let PRODUCT_SIZE = "{{PRODUCT_SIZE}}"
-let PRODUCT_DESCRIPTION = "{{PRODUCT_DESCRIPTION}}"
+const PRODUCT_IMAGE = "{{PRODUCT_IMG}}"
+const PRODUCT_STATUS = "{{PRODUCT_STATUS}}"
+const PRODUCT_CODE = "{{PRODUCT_CODE}}"
+const PRODUCT_PRICE = "{{PRODUCT_PRICE}}"
+const PRODUCT_DESCRIPTION = "{{PRODUCT_DESCRIPTION}}"
+const PRODUCT_SIZE = "{{PRODUCT_SIZE}}"
+const KEY_PRODUCT_LIST = "LIST"
+const KEY_PRODUCT = "product"
